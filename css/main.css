@@ -2,22 +2,21 @@ nav
 {
   background-color:white;
   color: black;
-}
-body
-{
-  left: 20px;
-  top: 20px;
+  left: 50px;
+  margin: 20px 10px;
 }
 #guidetrans
 {
   text-align: left;
+  height: fit-content;
 }
 .guidebuttom
 {
-  width: 200px;
+  width: fit-content+100px;
   position: relative;
   display: inline-block;
   color: black;
+  margin-left: 5px;
 }
 .guideblock:link
 {
@@ -27,8 +26,9 @@ body
 .guideblock:hover
 {
   font-weight: bold;
-  font-size: 18px;
-  color: cyan;
-  transform: scale(1.2);/*这个用于鼠标放上去时，导航栏整个放大1.2倍*/
-  
+}
+footer {
+  float: bottom;
+  border-top: 1px solid #918f8f;
+  margin-top: 36px;
 }

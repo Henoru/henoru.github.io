@@ -1,6 +1,6 @@
 ---
 layout: home
 title: Heno's Blog
+category: Home
 ---
-
-## haha
+主页
