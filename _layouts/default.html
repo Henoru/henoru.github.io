@@ -5,19 +5,16 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<h1>Heno</h1>
-				<li><a href="/">Home</a></li>
-				<li><a href="/math_notes">Maths Notes</a></li>
-				<li><a href="/algorithm_notes">Algorithm Notes</a></li>
-        <li><a href="/acm_records">Acm Records</a></li>
-			</ul>
-		</nav>
+    {% include guide.html %}
 		<div class="container">
-		
+      {{ content }}
 		</div><!-- /.container -->
 		<footer>
+      {% include friend_chain_list.html %}
+      <!--
+        Connact Me
+        QQ:1971810630
+      -->
 		</footer>
 	</body>
 </html>
