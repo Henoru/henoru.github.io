@@ -1,5 +1,34 @@
 nav
 {
-  background-color:black;
-  color: white;
+  background-color:white;
+  color: black;
+}
+body
+{
+  left: 20px;
+  top: 20px;
+}
+#guidetrans
+{
+  text-align: left;
+}
+.guidebuttom
+{
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+.guideblock:link
+{
+  text-decoration:none;
+  color: black;
+}
+.guideblock:hover
+{
+  font-weight: bold;
+  font-size: 18px;
+  color: cyan;
+  transform: scale(1.2);/*这个用于鼠标放上去时，导航栏整个放大1.2倍*/
+  
 }
