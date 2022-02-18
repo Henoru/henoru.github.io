@@ -1,7 +1,6 @@
 ---
 layout: home
-title: math_notes
+title: Math Notes
 category: math_notes
 ---
-
-## haha
+### 暂时还什么都没有呢

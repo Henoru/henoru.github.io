@@ -1,3 +1,9 @@
+body
+{
+  position: relative;
+  height: auto;
+  min-height: 100%;
+}
 nav
 {
   position: fixed;
@@ -48,4 +54,5 @@ footer {
 {
   text-decoration:none;
   color: grey;
+  padding-left: 5px;
 }

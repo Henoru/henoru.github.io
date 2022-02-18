@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Heno's Blog
+title: All My Notes
 category: Home
 ---
-主页
+### 暂时还什么都没有呢

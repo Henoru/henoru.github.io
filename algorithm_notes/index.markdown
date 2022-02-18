@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Heno
+title: Algorithm Notes
 category: algorithm_notes
 ---
-
-## haha
+### 暂时还什么都没有呢

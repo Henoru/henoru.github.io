@@ -1,7 +1,6 @@
 ---
 layout: home
-title: acm_records
+title: Acm Records
 category: acm_records
 ---
-
-## haha
+### 暂时还什么都没有呢
