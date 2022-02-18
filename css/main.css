@@ -1,22 +1,33 @@
 nav
 {
+  position: fixed;
+  width: 100%;
   background-color:white;
   color: black;
-  left: 50px;
-  margin: 20px 10px;
+  margin: 0px 0px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 2px 1px 1px grey;
 }
 #guidetrans
 {
   text-align: left;
   height: fit-content;
+  position: absolute;
+  right: 0px;
+  width: fit-content;
+  padding-right: 0px;
 }
 .guidebuttom
 {
-  width: fit-content+100px;
-  position: relative;
+  width: calc(fit-content+100px);
   display: inline-block;
+  position: relative;
+  right: 30px;
+  top: 20px;
   color: black;
   margin-left: 5px;
+  font-size: 20px;
 }
 .guideblock:link
 {
@@ -29,6 +40,12 @@ nav
 }
 footer {
   float: bottom;
-  border-top: 1px solid #918f8f;
+  border-top: 1px solid #bbb8b8;
   margin-top: 36px;
+  color: grey;
+}
+#friend_chain_list a
+{
+  text-decoration:none;
+  color: grey;
 }
