@@ -1,6 +1,5 @@
 ---
 layout: home
 title: All My Notes
-category: Home
+category: home
 ---
-### 暂时还什么都没有呢

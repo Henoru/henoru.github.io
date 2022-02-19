@@ -2,5 +2,9 @@
 layout: default
 ---
 <div class="post">
-  {{ content }}
+  {% if page.state=="show" %}
+    {{ content }}
+  {% else %}
+    <p style="font-size: 20px;">该文章已被隐藏</p>
+  {% endif %}
 </div>

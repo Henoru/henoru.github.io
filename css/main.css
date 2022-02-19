@@ -4,6 +4,10 @@ body
   height: auto;
   min-height: 100%;
 }
+a
+{
+  text-decoration:none;
+}
 nav
 {
   position: fixed;
@@ -37,7 +41,6 @@ nav
 }
 .guideblock:link
 {
-  text-decoration:none;
   color: black;
 }
 .guideblock:hover
@@ -52,7 +55,19 @@ footer {
 }
 #friend_chain_list a
 {
-  text-decoration:none;
   color: grey;
+  padding-left: 5px;
+}
+.datetime
+{
+  color: grey;
+  display: inline-block;
+}
+.article_chain a
+{
+  color: black;
+}
+.article_chain
+{
   padding-left: 5px;
 }

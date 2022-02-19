@@ -3,5 +3,12 @@ layout: default
 page: home
 ---
 <div class="list">
-  {{ content }}
+  {% for post in site.posts %}
+    {% if post.category == page.category or page.category == "home"%}
+      <div class="article_chain">
+        <p class="datetime">{{ post.datetime }}</p>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
