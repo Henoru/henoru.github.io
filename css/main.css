@@ -30,7 +30,7 @@ nav
 }
 .guidebuttom
 {
-  width: calc(fit-content+100px);
+  width: fit-content;
   display: inline-block;
   position: relative;
   right: 30px;
@@ -47,8 +47,11 @@ nav
 {
   font-weight: bold;
 }
+.guideblock:active
+{
+  color:grey;
+}
 footer {
-  float: bottom;
   border-top: 1px solid #bbb8b8;
   margin-top: 36px;
   color: grey;
