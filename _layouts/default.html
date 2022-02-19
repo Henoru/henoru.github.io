@@ -8,10 +8,11 @@
         font-weight: bold;
       }
     </style>
+    {% include latex.html %}
 	</head>
 	<body vlink="black">
     {% include guide.html %}
-		<div class="container" style="margin-left: 20px;padding-top: 100px;">
+		<div class="container" style="margin-left: 50px;padding-top: 100px;">
       <h2 id="Notetitle">{{ page.title }}</h2>
       {{ content }}
 		</div><!-- /.container -->
